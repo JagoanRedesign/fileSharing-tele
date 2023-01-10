@@ -27,9 +27,9 @@ OWNER = os.environ.get("OWNER", "ReszXD")
 DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:C2lKTX9msO4Nrf7if0RC@containers-us-west-145.railway.app:7063/railway")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "")
+CHANNEL = os.environ.get("CHANNEL", "DutabotID")
 GROUP = os.environ.get("GROUP", "InfoBotShr")
-CHANNELBC = os.environ.get("CHANNELBC", "")
+CHANNELBC = os.environ.get("CHANNELBC", "DutabotID")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
