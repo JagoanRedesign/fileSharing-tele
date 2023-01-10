@@ -15,7 +15,7 @@ from helper_func import encode
 
 @Bot.on_message(
     filters.private
-    & ~filters.command(
+    & filters.incoming & filters.chat(CHANNEL_ID) & ~filters.command(
         ["start", "users", "broadcast", "ping", "uptime", "batch", "genlink"]
     )
 )
