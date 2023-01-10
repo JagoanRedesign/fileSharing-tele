@@ -9,13 +9,13 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from bot import Bot
-from config import CHANNEL_ID, DISABLE_CHANNEL_BUTTON
+from config import ADMINS, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from helper_func import encode
 
 
 @Bot.on_message(
     filters.private
-    
+    & filters.user(ADMINS)
     & ~filters.command(
         ["start", "users", "broadcast", "ping", "uptime", "batch", "genlink"]
     )
