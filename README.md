@@ -22,7 +22,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AdminCantik/FileSharing-Pekob)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]()</br>
 
 #### Deploy in your VPS
 ````bash
@@ -63,7 +63,7 @@ python3 main.py
 
 ### Extra Variables
 
-* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/mrismanaziz/File-Sharing-Man/blob/main/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
+* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
 * `DISABLE_CHANNEL_BUTTON` Masukan True untuk Nonaktifkan Tombol Berbagi Saluran, Default jika False
 
 ### Fillings
@@ -84,22 +84,7 @@ python3 main.py
 ## Support   
 Bergabunglah di [Group Telegram ](https://www.telegram.dog/InfoBotShr) Untuk Dukungan/Bantuan dan untuk info Update bot.   
    
-Laporkan Bug, Berikan Permintaan Fitur Di sana.
-### Credits
 
-- Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
-- Thanks To [CodeXBotz](https://github.com/CodeXBotz/File-Sharing-Bot)
-- Thanks To [MRRismN](https://github.com/mrismanaziz/File-Sharing-Man)
-- Our Support Group Members
-
-### Licence
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
-
-[FILE-SHARING-BOT](https://github.com/restuap17/FileSharing-Restu) is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundationither version 3 of the License, or
-(at your option) any later version. 
 
 ##
 
