@@ -43,7 +43,7 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Post Link", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
