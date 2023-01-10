@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5166575484"))
 OWNER = os.environ.get("OWNER", "ReszXD")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb://mongo:7v3wJ3rp2QCdI24J02hJ@containers-us-west-55.railway.app:7269")
+DB_URI = os.environ.get("DATABASE_URL", "postgresql://postgres:C2lKTX9msO4Nrf7if0RC@containers-us-west-145.railway.app:7063/railway")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "")
