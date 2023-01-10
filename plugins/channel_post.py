@@ -20,7 +20,6 @@ from helper_func import encode
         ["start", "users", "broadcast", "ping", "uptime", "batch", "genlink"]
     )
 )
-
 async def channel_post(client: Client, message: Message):
     reply_text = await message.reply_text("<code>Tunggu Sebentar...</code>", quote=True)
     try:
