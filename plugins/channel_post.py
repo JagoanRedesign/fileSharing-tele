@@ -9,16 +9,18 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from bot import Bot
-from config import ADMINS, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
+from config import CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from helper_func import encode
 
 
 @Bot.on_message(
     filters.private
-    & filters.incoming & filters.chat(CHANNEL_ID) & ~filters.command(
+    
+    & ~filters.command(
         ["start", "users", "broadcast", "ping", "uptime", "batch", "genlink"]
     )
 )
+
 async def channel_post(client: Client, message: Message):
     reply_text = await message.reply_text("<code>Tunggu Sebentar...</code>", quote=True)
     try:
