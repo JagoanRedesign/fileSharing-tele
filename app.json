@@ -1,12 +1,12 @@
 {
-  "name": "FileSharing RestuAP",
-  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
+  "name": "pos tele RestuAP",
+  "description": "BOT Multi Force Subs Post tele Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
-    "file",
-    "sharing"
+    "Post",
+    "Tele"
   ],
-  "repository": "https://github.com/JagoanRedesign/fileSharing-tele",
+  "repository": "https://github.com/JagoanRedesign/post-tele",
   "logo": "https://telegra.ph/file/17577b5183ef34527a7e0.jpg",
   "env": {
     "TG_BOT_TOKEN": {
