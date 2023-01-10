@@ -26,9 +26,7 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/restuap17/FileSharing-Pekob
-cd FileSharing-Pekob
-pip3 install -r requirements.txt
+
 # <Create config.py appropriately>
 python3 main.py
 ````
