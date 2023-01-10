@@ -1,3 +1,6 @@
+# (©)Codexbotz
+# Recode by @mrismanaziz
+# t.me/SharingUserbot & t.me/Lunatic0de
 
 import asyncio
 
@@ -41,14 +44,14 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Post Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
 
     await reply_text.edit(
-        f"<b>Link Berhasil Di Buat :</b>\n\n{link}",
+        f"<b>Link Sharing File Berhasil Di Buat :</b>\n\n{link}",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
@@ -73,7 +76,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Post Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
